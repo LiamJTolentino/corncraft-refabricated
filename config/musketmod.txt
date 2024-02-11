@@ -1,0 +1,75 @@
+version = 3
+
+# General values
+
+# Maximum bullet travel distance (in blocks)
+bulletMaxDistance = 384.0
+# Maximum bullet entity lifetime  (in ticks)
+lifetime = 200.0
+# Maximum Angle at which bullets can ricochet
+ricochetAngleThreshold = 40.0
+# Minimum velocity required for a bullet to ricochet (in m/tick)
+ricochetVelocityThreshold = 5.0
+
+# Musket
+
+# Standard deviation of bullet spread (in degrees)
+musketBulletStdDev = 1.0
+# Muzzle velocity of bullet (in blocks per second)
+musketBulletSpeed = 220.0
+# Minimum damage at point-blank range
+musketDamageMin = 27.5
+# Maximum damage at point-blank range
+musketDamageMax = 28.0
+# Reload duration
+musketReloadDuration = 320.0
+# Durability
+musketDurability = 35.0
+
+# Rifle
+
+# Standard deviation of bullet spread (in degrees)
+rifleBulletStdDev = 0.2
+# Muzzle velocity of bullet (in blocks per second)
+rifleBulletSpeed = 230.0
+# Minimum damage at point-blank range
+rifleDamageMin = 27.0
+# Maximum damage at point-blank range
+rifleDamageMax = 28.0
+# Reload duration
+rifleReloadDuration = 400.0
+# Durability
+rifleDurability = 25.0
+
+# Pistol
+
+# Standard deviation of bullet spread (in degrees)
+pistolBulletStdDev = 1.5
+# Muzzle velocity of bullet (in blocks per second)
+pistolBulletSpeed = 140.0
+# Minimum damage at point-blank range
+pistolDamageMin = 14.0
+# Maximum damage at point-blank range
+pistolDamageMax = 15.0
+# Reload duration
+pistolReloadDuration = 260.0
+# Durability
+pistolDurability = 30.0
+
+# Blunderbuss
+
+# Standard deviation of bullet spread (in degrees)
+blunderbussBulletStdDev = 4.0
+# Muzzle velocity of bullet (in blocks per second)
+blunderbussBulletSpeed = 100.0
+# Number of projectiles fired in one shot
+blunderbussPelletCount = 15.0
+# Minimum damage at point-blank range
+blunderbussDamageMin = 8.0
+# Maximum damage at point-blank range
+blunderbussDamageMax = 10.0
+# Reload duration
+blunderbussReloadDuration = 400.0
+# Durability
+blunderbussDurability = 45.0
+

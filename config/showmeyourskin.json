@@ -1,22 +1,22 @@
 {
-  "globalEnabled": true,
+  "globalEnabled": false,
   "combatCooldown": 16.0,
   "fadeOutTime": 2.0,
   "global": {
     "pieces": {
-      "FEET": {
-        "transparency": 100,
-        "enchantGlint": true
-      },
       "LEGS": {
         "transparency": 100,
         "enchantGlint": true
       },
-      "HEAD": {
+      "CHEST": {
         "transparency": 100,
         "enchantGlint": true
       },
-      "CHEST": {
+      "FEET": {
+        "transparency": 100,
+        "enchantGlint": true
+      },
+      "HEAD": {
         "transparency": 100,
         "enchantGlint": true
       }
