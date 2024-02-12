@@ -101,7 +101,7 @@ _version = 2
 					# 1.0: Fog ends at the closest edge of the vanilla render distance. 
 					# 1.414: Fog ends at the corner of the vanilla render distance.
 					# 
-					farFogEnd = 1.0
+					farFogEnd = 1.414
 					# What is the minimum fog thickness? 
 					# 
 					# 0.0: No fog. 
@@ -120,7 +120,7 @@ _version = 2
 					# EXPONENTIAL: 1/(e^(distance*density)) 
 					# EXPONENTIAL_SQUARED: 1/(e^((distance*density)^2)
 					# 
-					farFogFalloff = "EXPONENTIAL_SQUARED"
+					farFogFalloff = "EXPONENTIAL"
 					# Used in conjunction with the Fog Falloff.
 					# 
 					farFogDensity = 2.5
@@ -142,7 +142,7 @@ _version = 2
 						# 
 						# Note: height fog settings are ignored if 'BASIC' or 'IGNORE_HEIGHT' are selected.
 						# 
-						heightFogMixMode = "BASIC"
+						heightFogMixMode = "IGNORE_HEIGHT"
 						# Where should the height fog start? 
 						# 
 						# ABOVE_CAMERA: Height fog starts at the camera and goes towards the sky 
@@ -186,7 +186,7 @@ _version = 2
 						# EXPONENTIAL: 1/(e^(height*density)) 
 						# EXPONENTIAL_SQUARED: 1/(e^((height*density)^2)
 						# 
-						heightFogFalloff = "EXPONENTIAL_SQUARED"
+						heightFogFalloff = "EXPONENTIAL"
 						# What is the height fog's density?
 						# 
 						heightFogDensity = 2.5
@@ -297,7 +297,7 @@ _version = 2
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
 				# 
-				earthCurveRatio = 0
+				earthCurveRatio = 50
 				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
 				# 
@@ -408,7 +408,7 @@ _version = 2
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfWorldGenerationThreads = 1
+			numberOfWorldGenerationThreads = 4
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
 			# 
@@ -447,7 +447,7 @@ _version = 2
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfLodBuilderThreads = 1
+			numberOfLodBuilderThreads = 2
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
 			# 
