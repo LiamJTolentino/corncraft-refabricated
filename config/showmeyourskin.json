@@ -4,15 +4,15 @@
   "fadeOutTime": 2.0,
   "global": {
     "pieces": {
+      "FEET": {
+        "transparency": 100,
+        "enchantGlint": true
+      },
       "HEAD": {
         "transparency": 100,
         "enchantGlint": true
       },
       "CHEST": {
-        "transparency": 100,
-        "enchantGlint": true
-      },
-      "FEET": {
         "transparency": 100,
         "enchantGlint": true
       },
