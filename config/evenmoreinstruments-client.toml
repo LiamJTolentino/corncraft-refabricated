@@ -1,0 +1,2 @@
+#Allowed Values: FULL_NOTE, HALF_NOTE
+violin_sound_type = "HALF_NOTE"

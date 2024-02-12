@@ -1,0 +1,9 @@
+{
+  "dirtTypes": [
+    "minecraft:dirt",
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:stone"
+  ],
+  "enableAll": false
+}

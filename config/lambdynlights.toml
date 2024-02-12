@@ -51,20 +51,67 @@ mode = "fancy"
 				chest_minecart = true
 				armor_stand = true
 				piglin_brute = true
+				dolphin = true
+				cod = true
+				phantom = true
+				firework_rocket = true
+				goat = true
+				rabbit = true
+				donkey = true
+				pillager = true
+				potion = true
+				arrow = true
+				silverfish = true
+				guardian = true
+				turtle = true
+				axolotl = true
+				tnt_minecart = true
+				experience_orb = true
+				pufferfish = true
+				tropical_fish = true
+				parrot = true
+				ocelot = true
+				piglin = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
 				cargo_airship = true
+				quadrocopter = true
+				gyrodyne = true
 
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
 
 			[light_sources.settings.entities.friendsandfoes]
 				copper_golem = true
+				moobloom = true
+				glare = true
 
 			[light_sources.settings.entities.sit]
 				entity_sit = true
 
 			[light_sources.settings.entities.hwg]
 				merc = true
+				bullets = true
+
+			[light_sources.settings.entities.smallships]
+				drakkar = true
+				brigg = true
+
+			[light_sources.settings.entities.mtmechs]
+				magitekarmor = true
+				protoarmor = true
+
+			[light_sources.settings.entities.mutantmonsters]
+				mutant_skeleton = true
+				mutant_zombie = true
+
+			[light_sources.settings.entities.valkyrienskies]
+				ship_mounting_entity = true
+
+			[light_sources.settings.entities.aqupd]
+				grizzly_bear = true
+
+			[light_sources.settings.entities.grapplemod]
+				grapplehook = true
 

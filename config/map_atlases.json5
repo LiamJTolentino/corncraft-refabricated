@@ -12,7 +12,7 @@
 	// Scale the world-map to a given % of the height of your screen.
 	"forceWorldMapScaling": 80,
 	// Set to any of 'Upper'/'Lower' & 'Left'/'Right' to control anchor position of mini-map
-	"miniMapAnchoring": "UpperLeft",
+	"miniMapAnchoring": "UpperRight",
 	// Enter an integer which will offset the mini-map horizontally
 	"miniMapHorizontalOffset": 5,
 	// Enter an integer which will offset the mini-map vertically
