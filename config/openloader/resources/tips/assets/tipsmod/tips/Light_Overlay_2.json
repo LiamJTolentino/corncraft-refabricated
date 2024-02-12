@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Light Overlay",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "You can change the light overlay settings in the config by opening it up in the mod menu. With this, you can make it display the light levels of certain blocks."
+    }
+}

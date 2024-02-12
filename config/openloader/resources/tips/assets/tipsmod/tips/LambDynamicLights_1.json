@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "LambDynamicLights",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "You can hold a torch in your hand to light up the area around you. Keep in mind, this is only visual and won't affect anything that uses light levels."
+    }
+}

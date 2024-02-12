@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Eureka Ships",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "The larger you make your airship, the more balloons you'll need to place in it."
+    }
+}

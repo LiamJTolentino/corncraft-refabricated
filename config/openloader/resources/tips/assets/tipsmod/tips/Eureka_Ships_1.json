@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Eureka Ships",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "The more ship engines you add to your vessel, the faster it can go."
+    }
+}

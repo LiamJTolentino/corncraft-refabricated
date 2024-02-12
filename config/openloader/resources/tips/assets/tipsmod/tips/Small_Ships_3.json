@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships",
+        "bold": true,
+        "color": "dark_aqua"
+    },
+    "tip": {
+        "text": "To remove a cannon, right-click the ship with a pickaxe."
+    }
+}

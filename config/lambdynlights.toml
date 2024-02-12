@@ -72,6 +72,10 @@ mode = "fancy"
 				parrot = true
 				ocelot = true
 				piglin = true
+				vindicator = true
+				fox = true
+				wither = true
+				wither_skull = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
@@ -105,6 +109,7 @@ mode = "fancy"
 			[light_sources.settings.entities.mutantmonsters]
 				mutant_skeleton = true
 				mutant_zombie = true
+				mutant_creeper = true
 
 			[light_sources.settings.entities.valkyrienskies]
 				ship_mounting_entity = true
@@ -114,4 +119,8 @@ mode = "fancy"
 
 			[light_sources.settings.entities.grapplemod]
 				grapplehook = true
+
+			[light_sources.settings.entities.arcanus]
+				magic_missile = true
+				arcane_barrier = true
 

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Better Ore Smelting",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You need a lot of fuel to smelt raw ore blocks. One coal block should be able to smelt 8 raw ore blocks."
+    }
+}

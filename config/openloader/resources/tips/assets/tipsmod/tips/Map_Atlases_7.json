@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Map Atlases",
+        "bold": true,
+        "color": "blue"
+    },
+    "tip": {
+        "text": "Right-click a banner while holding your atlas to save it as a waypoint on your map."
+    }
+}

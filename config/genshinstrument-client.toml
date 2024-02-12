@@ -13,7 +13,7 @@ display_other_players = true
 render_background = true
 accurate_notes = true
 normalize_vintage_lyre = true
-accepted_genshin_consent = false
+accepted_genshin_consent = true
 #Allowed Values: OLD, NEW
 zither_sound_type = "NEW"
 #Allowed Values: KEYBOARD_LAYOUT, QWERTY, DON_KA, NOTE_NAME, DO_RE_MI, NONE

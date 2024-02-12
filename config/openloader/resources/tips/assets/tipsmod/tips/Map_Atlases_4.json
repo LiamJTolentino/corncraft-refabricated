@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Map Atlases",
+        "bold": true,
+        "color": "blue"
+    },
+    "tip": {
+        "text": "You can combine atlases in the cartography table. This will allow both atlases to have the same maps."
+    }
+}

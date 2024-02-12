@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Immersive Aircraft",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "The cargo airship can store a lot of items, but is somewhat slow. Use this to transport large amounts of items."
+    }
+}

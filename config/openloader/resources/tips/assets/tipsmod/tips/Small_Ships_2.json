@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships",
+        "bold": true,
+        "color": "dark_aqua"
+    },
+    "tip": {
+        "text": "To fire a cannon, look in the direction the cannon is facing and press the jump button. The ship's inventory needs to have ammo to fire."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships",
+        "bold": true,
+        "color": "dark_aqua"
+    },
+    "tip": {
+        "text": "By default, you press r to dismount the ship. If that doesn't work, check your keybindings in the controls settings."
+    }
+}

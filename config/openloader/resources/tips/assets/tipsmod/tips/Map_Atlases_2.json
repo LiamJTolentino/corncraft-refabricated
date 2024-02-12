@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Map Atlases",
+        "bold": true,
+        "color": "blue"
+    },
+    "tip": {
+        "text": "Holding the atlas in your hotbar, offhand, or atlas slot (found by hovering over the shield slot in your inventory) will allow you to have a minimap onscreen."
+    }
+}

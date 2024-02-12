@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Eureka Ships",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "You can place blocks on your vessel even while it's assembled."
+    }
+}

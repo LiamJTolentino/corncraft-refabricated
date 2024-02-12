@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Map Atlases",
+        "bold": true,
+        "color": "blue"
+    },
+    "tip": {
+        "text": "By default, press m while the atlas is in your inventory to view a world map. Check your keybindings if this doesn't work."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships",
+        "bold": true,
+        "color": "dark_aqua"
+    },
+    "tip": {
+        "text": "The Drakkar can break through ice. Use this in iceberg biomes to easily break through."
+    }
+}

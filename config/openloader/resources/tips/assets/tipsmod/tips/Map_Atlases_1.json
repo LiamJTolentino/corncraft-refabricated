@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Map Atlases",
+        "bold": true,
+        "color": "blue"
+    },
+    "tip": {
+        "text": "You can craft an atlas by combing a filled map, a normal book, and a slimeball in the crafting grid."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Grappling Hooks",
+        "bold": true,
+        "color": "dark_green"
+    },
+    "tip": {
+        "text": "You can use grappling hooks to safely descend into deep caves and ravines."
+    }
+}

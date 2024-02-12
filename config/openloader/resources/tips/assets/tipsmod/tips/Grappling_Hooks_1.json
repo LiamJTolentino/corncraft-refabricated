@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Grappling Hooks",
+        "bold": true,
+        "color": "dark_green"
+    },
+    "tip": {
+        "text": "You can swing with a grappling hook."
+    }
+}

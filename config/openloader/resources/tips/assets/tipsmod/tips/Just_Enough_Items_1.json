@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Just Enough Items",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "While hovering over an item, press r to see how to craft it. Press u to see what recipes it's used in."
+    }
+}

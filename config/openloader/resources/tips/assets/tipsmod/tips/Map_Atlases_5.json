@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Map Atlases",
+        "bold": true,
+        "color": "blue"
+    },
+    "tip": {
+        "text": "Atlases work in other dimensions. This means you can easily map out the End and Nether."
+    }
+}

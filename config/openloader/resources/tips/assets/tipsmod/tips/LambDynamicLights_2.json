@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "LambDynamicLights",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "You can drop a torch or any other light-emitting item down a deep area to briefly light it up and see what's at the bottom."
+    }
+}

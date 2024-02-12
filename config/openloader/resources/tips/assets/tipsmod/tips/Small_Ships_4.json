@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships",
+        "bold": true,
+        "color": "dark_aqua"
+    },
+    "tip": {
+        "text": "You can repair your ship with iron nuggets and wooden planks by right-clicking the ship with the iron nuggets while the planks can be elsewhere in your inventory."
+    }
+}

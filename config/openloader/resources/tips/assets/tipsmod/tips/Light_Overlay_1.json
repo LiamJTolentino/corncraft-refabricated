@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Light Overlay",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Press f7 on your keyboard to see which blocks can spawn mobs. This can help when caving to make sure you placed enough torches."
+    }
+}
