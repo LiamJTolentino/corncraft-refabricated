@@ -1,0 +1,77 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1707785741611
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:65b303f3-4b4e-4be8-b103-0af026303043-1707785741612] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
+  copy_client_player = true
+  playername = ElectricFire64
+  auto_skin = false
+  auto_cape = false
+  slim = false
+  skin_source = ElectricFire64
+  scale = 30
+  parrot = false
+  parrot_left_shoulder = false
+  is_baby = false
+  crouching = false
+  showname = false
+  head_follows_mouse = true
+  body_follows_mouse = true
+  body_x_rot_advanced_mode = false
+  body_y_rot_advanced_mode = false
+  head_x_rot_advanced_mode = false
+  head_y_rot_advanced_mode = false
+  head_z_rot_advanced_mode = false
+  left_arm_x_rot_advanced_mode = false
+  left_arm_y_rot_advanced_mode = false
+  left_arm_z_rot_advanced_mode = false
+  right_arm_x_rot_advanced_mode = false
+  right_arm_y_rot_advanced_mode = false
+  right_arm_z_rot_advanced_mode = false
+  left_leg_x_rot_advanced_mode = false
+  left_leg_y_rot_advanced_mode = false
+  left_leg_z_rot_advanced_mode = false
+  right_leg_x_rot_advanced_mode = false
+  right_leg_y_rot_advanced_mode = false
+  right_leg_z_rot_advanced_mode = false
+  element_type = fancymenu_customization_player_entity
+  instance_identifier = 92a06fc1-7aae-49b1-b722-0053750cf4aa-1707785263042
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-left
+  x = 23
+  y = 91
+  width = 18
+  height = 54
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = beb3e58a-4805-4fa6-b896-1329dae69f0b-1707785263042
+  [loading_requirement_container_meta:beb3e58a-4805-4fa6-b896-1329dae69f0b-1707785263042] = [groups:][instances:3905d2e0-9281-4570-8a57-508b42636ec0-1707785711878;]
+  [loading_requirement:fancymenu_loading_requirement_is_server_online][requirement_mode:if][req_id:3905d2e0-9281-4570-8a57-508b42636ec0-1707785711878] = play.liamjvt.com
+}
+

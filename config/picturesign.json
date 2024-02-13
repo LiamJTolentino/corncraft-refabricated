@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "translucency": false,
+  "helperUi": true,
+  "exceedVanillaLineLength": false,
+  "debug": false,
+  "maxThreads": 4,
+  "signRenderDistance": 64,
+  "safeMode": true
+}
