@@ -1,5 +1,6 @@
 {
     "ModSettings": {
+        "sort_order": "ITEM_NAME",
         "first_run": false
     },
     "GuiSettings": {
@@ -11,6 +12,13 @@
     "AutoRefillSettings": {
         "refill_before_tool_break": {
             "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
         }
     }
 }

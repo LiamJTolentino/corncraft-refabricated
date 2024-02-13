@@ -76,6 +76,12 @@ mode = "fancy"
 				fox = true
 				wither = true
 				wither_skull = true
+				boat = true
+				egg = true
+				trident = true
+				elder_guardian = true
+				evoker = true
+				mooshroom = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
@@ -90,6 +96,7 @@ mode = "fancy"
 				copper_golem = true
 				moobloom = true
 				glare = true
+				mauler = true
 
 			[light_sources.settings.entities.sit]
 				entity_sit = true
@@ -110,6 +117,7 @@ mode = "fancy"
 				mutant_skeleton = true
 				mutant_zombie = true
 				mutant_creeper = true
+				mutant_arrow = true
 
 			[light_sources.settings.entities.valkyrienskies]
 				ship_mounting_entity = true
@@ -123,4 +131,7 @@ mode = "fancy"
 			[light_sources.settings.entities.arcanus]
 				magic_missile = true
 				arcane_barrier = true
+
+			[light_sources.settings.entities.requiem]
+				player_shell = true
 
