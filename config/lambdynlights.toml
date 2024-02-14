@@ -82,6 +82,7 @@ mode = "fancy"
 				elder_guardian = true
 				evoker = true
 				mooshroom = true
+				llama = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
@@ -104,6 +105,7 @@ mode = "fancy"
 			[light_sources.settings.entities.hwg]
 				merc = true
 				bullets = true
+				spy = true
 
 			[light_sources.settings.entities.smallships]
 				drakkar = true
@@ -118,6 +120,8 @@ mode = "fancy"
 				mutant_zombie = true
 				mutant_creeper = true
 				mutant_arrow = true
+				creeper_minion = true
+				throwable_block = true
 
 			[light_sources.settings.entities.valkyrienskies]
 				ship_mounting_entity = true
@@ -134,4 +138,15 @@ mode = "fancy"
 
 			[light_sources.settings.entities.requiem]
 				player_shell = true
+
+			[light_sources.settings.entities.fishofthieves]
+				plentifin = true
+				wildsplash = true
+				splashtail = true
+				ancientscale = true
+				islehopper = true
+				pondie = true
+
+			[light_sources.settings.entities.farmersdelight]
+				rotten_tomato = true
 

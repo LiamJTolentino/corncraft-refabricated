@@ -8,15 +8,15 @@
         "transparency": 100,
         "enchantGlint": true
       },
-      "LEGS": {
-        "transparency": 100,
-        "enchantGlint": true
-      },
       "CHEST": {
         "transparency": 100,
         "enchantGlint": true
       },
       "FEET": {
+        "transparency": 100,
+        "enchantGlint": true
+      },
+      "LEGS": {
         "transparency": 100,
         "enchantGlint": true
       }

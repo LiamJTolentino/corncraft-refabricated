@@ -1,6 +1,6 @@
 [xpCost]
 inverseXpCost = false
-blocksPerXpLevel = 1000
+blocksPerXpLevel = 5000
 minimumBaseXpCost = 0.0
 maximumBaseXpCost = 3.0
 xpCostPerLeashed = 1

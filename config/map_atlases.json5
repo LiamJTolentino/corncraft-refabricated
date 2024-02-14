@@ -1,6 +1,6 @@
 {
 	// The maximum number of Maps (Filled & Empty combined) allowed to be inside an Atlas (-1 to disable).
-	"maxMapCount": 512,
+	"maxMapCount": -1,
 	// Scale the mini-map to a given % of the height of your screen.
 	"forceMiniMapScaling": 30,
 	// If 'true', the Mini-Map of the Active Map will be drawn on the HUD while the Atlas is active.
