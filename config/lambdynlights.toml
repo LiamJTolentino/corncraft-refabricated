@@ -83,6 +83,7 @@ mode = "fancy"
 				evoker = true
 				mooshroom = true
 				llama = true
+				husk = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
