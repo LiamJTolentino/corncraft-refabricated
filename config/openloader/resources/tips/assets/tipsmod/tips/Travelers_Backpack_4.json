@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Travelers Backpack",
+        "bold": true,
+        "color": "brown"
+    },
+    "tip": {
+        "text": "While the backpack is placed down, you can unroll the sleeping bag to sleep in it for the night."
+    }
+}

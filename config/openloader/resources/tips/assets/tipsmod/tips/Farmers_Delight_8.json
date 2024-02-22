@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Farmers Delight",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Feeding your pet the appropriate food item will give them boosts. For example, horses will run faster if given horse food."
+    }
+}

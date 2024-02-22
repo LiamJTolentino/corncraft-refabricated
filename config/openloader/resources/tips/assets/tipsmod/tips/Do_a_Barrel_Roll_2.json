@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Do a Barrel Roll",
+        "bold": true,
+        "color": "blue"
+    },
+    "tip": {
+        "text": "Moving your mouse horizontally controls your roll axis. Strafing left and right controls the yaw now."
+    }
+}

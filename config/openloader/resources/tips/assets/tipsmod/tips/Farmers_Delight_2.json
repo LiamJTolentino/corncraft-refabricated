@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Farmers Delight",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Some recipes won't appear in JEI. You can either find them online or experiment with different ingredients."
+    }
+}

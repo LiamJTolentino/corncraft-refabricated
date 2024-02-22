@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Travelers Backpack",
+        "bold": true,
+        "color": "brown"
+    },
+    "tip": {
+        "text": "You can store fluids like water and lava in your backpack."
+    }
+}

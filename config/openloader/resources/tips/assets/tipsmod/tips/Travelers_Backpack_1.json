@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Travelers Backpack",
+        "bold": true,
+        "color": "brown"
+    },
+    "tip": {
+        "text": "Hold down crouch [shift] and right-click to place down a backpack. Do the same thing to the placed backpack to wear it. Open the backpack with 'b' and click on the button on the left to take it off."
+    }
+}

@@ -84,12 +84,19 @@ mode = "fancy"
 				mooshroom = true
 				llama = true
 				husk = true
+				lightning_bolt = true
+				zombified_piglin = true
+				painting = true
+				area_effect_cloud = true
+				wandering_trader = true
+				trader_llama = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
 				cargo_airship = true
 				quadrocopter = true
 				gyrodyne = true
+				airship = true
 
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
@@ -107,6 +114,7 @@ mode = "fancy"
 				merc = true
 				bullets = true
 				spy = true
+				grenade = true
 
 			[light_sources.settings.entities.smallships]
 				drakkar = true
@@ -147,7 +155,22 @@ mode = "fancy"
 				ancientscale = true
 				islehopper = true
 				pondie = true
+				stormfish = true
+				devilfish = true
 
 			[light_sources.settings.entities.farmersdelight]
 				rotten_tomato = true
+
+			[light_sources.settings.entities.naturalist]
+				firefly = true
+				snake = true
+				boar = true
+				giraffe = true
+				butterfly = true
+
+			[light_sources.settings.entities.xercapaint]
+				easel = true
+
+			[light_sources.settings.entities.xercamusic]
+				music_spirit = true
 

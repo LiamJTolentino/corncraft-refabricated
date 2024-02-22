@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Better Archery",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "The fletching table finally has a use! Right-click on one to see what it does."
+    }
+}

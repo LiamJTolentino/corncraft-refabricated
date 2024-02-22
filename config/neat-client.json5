@@ -18,7 +18,7 @@
 	"showPercentage": true,
 	"showOnPlayers": true,
 	"showOnBosses": true,
-	"showOnlyFocused": false,
+	"showOnlyFocused": true,
 	"showFullHealth": true,
 	"enableDebugInfo": true,
 	"blacklist": [

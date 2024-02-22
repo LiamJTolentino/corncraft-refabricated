@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Travelers Backpack",
+        "bold": true,
+        "color": "brown"
+    },
+    "tip": {
+        "text": "You need to place down your backpack to upgrade it."
+    }
+}

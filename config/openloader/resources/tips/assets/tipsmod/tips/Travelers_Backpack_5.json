@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Travelers Backpack",
+        "bold": true,
+        "color": "brown"
+    },
+    "tip": {
+        "text": "When you die, your backpack immediately gets placed down near where you died."
+    }
+}
