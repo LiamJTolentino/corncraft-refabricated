@@ -2,7 +2,7 @@
 	// default: NONE
 	show-last-eaten-tips: EXTENDED
 	// default: false
-	enable-journal-command: false
+	enable-journal-command: true
 	respawn: {
 		// default: max(14, hunger)
 		// 	Must be a valid expression
@@ -18,7 +18,7 @@
 	food: {
 		// default: hungerValue * power(0.7, timesEaten)
 		// 	Must be a valid expression
-		hunger: hungerValue * power(0.7, timesEaten)
+		hunger: hungerValue * power(0.7, timesEaten-1)
 		// default: saturationValue
 		// 	Must be a valid expression
 		saturation: saturationValue
@@ -33,7 +33,7 @@
 		// default: false
 		enable: true
 		// default: 0.6 * baseHealth + max(2 * floor(log2(uniqueFoodsEaten)), 0)
-		health-formula: 0.6 * baseHealth + max(2 * floor(log2(uniqueFoodsEaten)), 0)
+		health-formula: 0.8 * baseHealth + max(2 * floor(log2(uniqueFoodsEaten)), 0)
 		// default: -1
 		// 	Must be inclusively between -1 and 200
 		max-health: -1

@@ -90,6 +90,10 @@ mode = "fancy"
 				area_effect_cloud = true
 				wandering_trader = true
 				trader_llama = true
+				stray = true
+				illusioner = true
+				eye_of_ender = true
+				snow_golem = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
@@ -115,6 +119,14 @@ mode = "fancy"
 				bullets = true
 				spy = true
 				grenade = true
+				mbullets = true
+				technodemon_greater_1 = true
+				shell = true
+				fireball = true
+				blazerod = true
+				rockets = true
+				technodemon_lesser_1 = true
+				flame_firing = true
 
 			[light_sources.settings.entities.smallships]
 				drakkar = true
@@ -131,6 +143,11 @@ mode = "fancy"
 				mutant_arrow = true
 				creeper_minion = true
 				throwable_block = true
+				mutant_enderman = true
+				endersoul_fragment = true
+				mutant_snow_golem = true
+				spider_pig = true
+				endersoul_clone = true
 
 			[light_sources.settings.entities.valkyrienskies]
 				ship_mounting_entity = true
@@ -157,6 +174,7 @@ mode = "fancy"
 				pondie = true
 				stormfish = true
 				devilfish = true
+				wrecker = true
 
 			[light_sources.settings.entities.farmersdelight]
 				rotten_tomato = true
@@ -167,10 +185,33 @@ mode = "fancy"
 				boar = true
 				giraffe = true
 				butterfly = true
+				robin = true
+				deer = true
+				bear = true
+				cardinal = true
+				snail = true
+				canary = true
 
 			[light_sources.settings.entities.xercapaint]
 				easel = true
 
 			[light_sources.settings.entities.xercamusic]
 				music_spirit = true
+
+			[light_sources.settings.entities.scooters]
+				electric_scooter = true
+				kick_scooter = true
+
+			[light_sources.settings.entities.musketmod]
+				bullet = true
+
+			[light_sources.settings.entities.ygm76]
+				bullet = true
+
+			[light_sources.settings.entities.adorn]
+				seat = true
+
+			[light_sources.settings.entities.niftycarts]
+				supply_cart = true
+				plow = true
 
