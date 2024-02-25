@@ -94,6 +94,8 @@ mode = "fancy"
 				illusioner = true
 				eye_of_ender = true
 				snow_golem = true
+				snowball = true
+				cave_spider = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
@@ -191,6 +193,7 @@ mode = "fancy"
 				cardinal = true
 				snail = true
 				canary = true
+				bluejay = true
 
 			[light_sources.settings.entities.xercapaint]
 				easel = true
@@ -214,4 +217,6 @@ mode = "fancy"
 			[light_sources.settings.entities.niftycarts]
 				supply_cart = true
 				plow = true
+				animal_cart = true
+				postilion = true
 

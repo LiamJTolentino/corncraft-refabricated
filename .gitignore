@@ -1,0 +1,10 @@
+*.log
+saves/
+input.yml
+servers.dat*
+logs/
+ops.json
+screenshots/
+config/inventoryprofilesnext/*/
+config/jei/world/
+config/stack-to-nearby-chests/locked-slots/
