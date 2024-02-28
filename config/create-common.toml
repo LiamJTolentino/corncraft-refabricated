@@ -1,6 +1,4 @@
-
 [worldgen]
-
 	#.
 	#Modify Create's impact on your terrain
 	[worldgen.v2]
@@ -25,7 +23,6 @@
 			#.
 			#Range: > -2147483648
 			maxHeight = 90
-
 		[worldgen.v2.striated_ores_overworld]
 			#.
 			#Range: > 0
@@ -43,7 +40,6 @@
 			#.
 			#Range: > -2147483648
 			maxHeight = 70
-
 		[worldgen.v2.zinc_ore]
 			#.
 			#Range: > 0
@@ -61,4 +57,3 @@
 			#.
 			#Range: > -2147483648
 			maxHeight = 70
-

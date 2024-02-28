@@ -1,0 +1,9 @@
+{
+  "modVersion": "1.5.1",
+  "isEnabled": true,
+  "hideShields": true,
+  "hideInMainHand": false,
+  "hiddenItems": [
+    "minecraft:totem_of_undying"
+  ]
+}

@@ -1,4 +1,3 @@
-
 #General settings
 [general]
 	#Journeymap train overlay update time (in ticks)
@@ -13,4 +12,3 @@
 	skipClientsideDerailing = false
 	#Use a scanline shader when spying through a conductor
 	conductorSpyShader = true
-

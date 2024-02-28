@@ -96,6 +96,11 @@ mode = "fancy"
 				snow_golem = true
 				snowball = true
 				cave_spider = true
+				leash_knot = true
+				blaze = true
+				llama_spit = true
+				minecart = true
+				ender_pearl = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
@@ -129,6 +134,7 @@ mode = "fancy"
 				rockets = true
 				technodemon_lesser_1 = true
 				flame_firing = true
+				flare = true
 
 			[light_sources.settings.entities.smallships]
 				drakkar = true
@@ -150,6 +156,7 @@ mode = "fancy"
 				mutant_snow_golem = true
 				spider_pig = true
 				endersoul_clone = true
+				body_part = true
 
 			[light_sources.settings.entities.valkyrienskies]
 				ship_mounting_entity = true
@@ -219,4 +226,22 @@ mode = "fancy"
 				plow = true
 				animal_cart = true
 				postilion = true
+
+			[light_sources.settings.entities.alaskanativecraft]
+				ptarmigan = true
+				harp_seal = true
+
+			[light_sources.settings.entities.create]
+				super_glue = true
+				stationary_contraption = true
+				potato_projectile = true
+				carriage_contraption = true
+				contraption = true
+
+			[light_sources.settings.entities.createbigcannons]
+				pitch_contraption = true
+				he_shell = true
+
+			[light_sources.settings.entities.timeinabottle]
+				accelerator = true
 
