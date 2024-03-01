@@ -101,6 +101,13 @@ mode = "fancy"
 				llama_spit = true
 				minecart = true
 				ender_pearl = true
+				ender_dragon = true
+				endermite = true
+				shulker = true
+				experience_bottle = true
+				wither_skeleton = true
+				hoglin = true
+				panda = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				biplane = true
@@ -139,6 +146,7 @@ mode = "fancy"
 			[light_sources.settings.entities.smallships]
 				drakkar = true
 				brigg = true
+				cannon_ball = true
 
 			[light_sources.settings.entities.mtmechs]
 				magitekarmor = true
@@ -184,6 +192,7 @@ mode = "fancy"
 				stormfish = true
 				devilfish = true
 				wrecker = true
+				battlegill = true
 
 			[light_sources.settings.entities.farmersdelight]
 				rotten_tomato = true
@@ -201,6 +210,9 @@ mode = "fancy"
 				snail = true
 				canary = true
 				bluejay = true
+				coral_snake = true
+				vulture = true
+				rattlesnake = true
 
 			[light_sources.settings.entities.xercapaint]
 				easel = true
@@ -237,10 +249,17 @@ mode = "fancy"
 				potato_projectile = true
 				carriage_contraption = true
 				contraption = true
+				gantry_contraption = true
 
 			[light_sources.settings.entities.createbigcannons]
 				pitch_contraption = true
 				he_shell = true
+				ap_shot = true
+				cannon_carriage = true
+				machine_gun_bullet = true
+				flak_autocannon = true
+				ap_autocannon = true
+				shrapnel_shell = true
 
 			[light_sources.settings.entities.timeinabottle]
 				accelerator = true

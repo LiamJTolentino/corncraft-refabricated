@@ -4,14 +4,14 @@
   "continueOnRestart": false,
   "tasks": {
     "minecraft:overworld": {
-      "cancelled": true,
-      "radius": 500.0,
-      "centerX": 224.0,
-      "centerZ": 294.0,
+      "cancelled": false,
+      "radius": 900.0,
+      "centerX": -880.0,
+      "centerZ": 704.0,
       "iterator": "concentric",
-      "shape": "circle",
-      "count": 4225,
-      "time": 2
+      "shape": "square",
+      "count": 3994,
+      "time": 482600
     }
   }
 }

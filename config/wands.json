@@ -1,6 +1,6 @@
 {
   "max_limit___increment_this_if_your_machine_can_handle_it": 8192,
-  "blocks_per_xp": 0.0,
+  "blocks_per_xp": 0.05,
   "stone_wand_limit": 16,
   "iron_wand_limit": 32,
   "diamond_wand_limit": 64,
