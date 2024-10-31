@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Harvest with Ease",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Rather than breaking a crop, try right-clicking it. This will allow you to both harvest and replant the crop at the same time."
+    }
+}

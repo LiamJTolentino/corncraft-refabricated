@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "intro_cook"
+  ],
+  "tasks": {
+    "potato": {
+      "type": "heracles:item",
+      "item": "minecraft:potato",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bonemeal": {
+      "title": "Bonemeal to grow more crops",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Get Potatoes"
+    },
+    "description": [
+      "Wild potatoes can be found in cold biomes. Potatoes can be occasionally dropped by zombies but can also be found in villages or sometimes dungeon chests."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -277,
+          -38
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:potato",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Potatoes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

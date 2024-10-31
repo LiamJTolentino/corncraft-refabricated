@@ -1,0 +1,90 @@
+Antique Atlas:
+  color: "brown"
+  tips:
+  - "Press [M] to open the world map and see what places you've explored."
+  - "When exploring, use markers to mark where your mount is so you can return to it later."
+Better Ore Smelting:
+  color: "yellow"
+  tips:
+  - "Instead of smelting one raw ore at a time, you can craft them into raw ore blocks and smelt them into full blocks. This takes more time, but is more space-efficient."
+  - "You need a lot of fuel to smelt raw ore blocks. One coal block should be able to smelt 8 raw ore blocks."
+Comforts:
+  color: "red"
+  tips:
+  - "Sleeping in a sleeping bag won't set your spawn. Use this when traveling so you can quickly skip to day without changing your spawn point."
+  - "Sleeping in a hammock will skip to night instead of day."
+Create:
+  color: "gold"
+  tips:
+  - "Deployers can be set to attack. Give them a weapon to kill mobs in your mob farm so you can get certain drops."
+  - "You can move assembled trains to another track with your wrench."
+  - "Create mod allows you to move mob spawners with contraptions. Attach the spawner to a train or minecart contraption and send it wherever you want."
+  - "Trains can move through nether portals. Use this to transport things between dimensions."
+  - "If a source of liquid has at least 10,000 blocks, the hose pulley can pull infinite amounts of that liquid."
+Farmers Delight:
+  color: "red"
+  tips:
+  - "You can find wild crops in different biomes. Be sure to collect them all so you can cook all the recipes!"
+  - "Some recipes won't appear in JEI. You can either find them online or experiment with different ingredients."
+  - "Breaking tall grass with a knife has a chance of dropping straw which can be used in various different recipes."
+  - "Craft a recipe book by combining a normal book, wheat seeds, and a wooden bowl in a crafting grid. This will help you progress through the mod."
+  - "Some foods have to be placed down to be eaten, much like the cake."
+  - "Don't throw away your rotten flesh! It can be used to craft organic compost which eventual turns into rich soil under sunlight and near water. Crops grow faster on rich soil."
+  - "Milk bottles can be used in every recipe that uses milk buckets, but drinking them only removes a single effect rather than all at once."
+  - "Feeding your pet the appropriate food item will give them boosts. For example, horses will run faster if given horse food."
+Harvest with Ease:
+  color: "gold"
+  tips:
+  - "Rather than breaking a crop, try right-clicking it. This will allow you to both harvest and replant the crop at the same time."
+Roughly Enough Items:
+  color: "green"
+  tips:
+  - "While hovering over an item, press r to see how to craft it. Press u to see what recipes it's used in."
+  - "Press [a] while hovering over an item to save it. It will then appear on the left side in your inventory screen. This can be helpful if you have items that you frequently need to craft."
+  - "When viewing a recipe in REI, you can press the [+] button to automatically place items in your inventory into the correct configuration, as long as you have the right crafting inventory opened."
+  - "Ctrl+o lets you toggle the REI menu in your inventory."
+Lighty:
+  color: "gold"
+  tips:
+  - "Press f7 on your keyboard to see which blocks can spawn mobs. This can help when caving to make sure you placed enough torches."
+  - "You can change the light overlay settings in the config by opening it up in the mod menu. With this, you can make it display the light levels of certain blocks."
+Immersive Aircraft:
+  color: "yellow"
+  tips:
+  - "The cargo airship can store a lot of items, but is somewhat slow. Use this to transport large amounts of items."
+  - "idek"
+  - "bye"
+Small Ships:
+  color: "dark_aqua"
+  tips:
+  - "To fire a cannon, look in the direction the cannon is facing and press the jump button. The ship's inventory needs to have ammo to fire."
+  - "To remove a cannon, right-click the ship with a pickaxe."
+  - "You can repair your ship with iron nuggets and wooden planks by right-clicking the ship with the iron nuggets while the planks can be elsewhere in your inventory."
+  - "You can dye sails."
+  - "You can rename your ship with a nametag, much like a mob."
+  - "Use leads to tie down your ship to a fence post to dock it, much like tying down a mob."
+  - "The Cog, the Brigg, and the Drakkar are great ships for cold water biomes."
+  - "The Galley is great for warm water biomes."
+  - "The Drakkar can break through ice. Use this in iceberg biomes to easily break through."
+  - "The Cog is an excellent starter ship for traveling across the sea."
+Spice of Fabric:
+  color: "brown"
+  tips:
+  - "Eating the same food too many times will diminish its nutritional value. Try eating more foods!"
+  - "Trying new foods will increase your max health. Try all the different food items and all the recipes you can cook with them."
+  - "Craft a lunchbox to store all your unique food items. Eating straight from the lunchbox will randomly select a food to eat, ensuring that you maintain a balanced diet."
+Eureka Ships:
+  color: "gold"
+  tips:
+  - "The more ship engines you add to your vessel, the faster it can go."
+  - "The larger you make your airship, the more balloons you'll need to place in it."
+  - "Use floaters to help your ship stay afloat. It's best to place them on the layer where the ship touches the water."
+  - "The anchor allows your vessel to stay in place while assembled. Apply a redstone signal to deploy the anchor."
+  - "You can place blocks on your vessel even while it's assembled."
+Real Life:
+  color: "red"
+  tips:
+  - "Death comes for us all"
+  - "You matter to somebody"
+  - "I am in your walls"
+  - "One day, all this will mean nothing."

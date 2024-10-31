@@ -1,0 +1,69 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "monocle": {
+      "type": "heracles:item",
+      "item": "horseexpert:monocle",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "horse": {
+      "item": {
+        "id": "minecraft:horse_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "saddle": {
+      "item": {
+        "id": "minecraft:saddle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "lead": {
+      "item": {
+        "id": "minecraft:lead",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "An essential tool for horse breeding"
+    },
+    "description": [
+      "Horse breeding in Minecraft can get annoying. Luckily, we have a mod that helps with that. By wearing this monocle on your face, you can see the stats of a horse as long as you are crouching. As a reward, you will be provided with a horse, saddle, and lead in case you spawned in a biome with no horses."
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -125,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "horseexpert:monocle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": {
+      "translate": "Monocle"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

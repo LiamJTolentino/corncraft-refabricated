@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "wheel"
+  ],
+  "tasks": {
+    "cart": {
+      "type": "heracles:item",
+      "item": "niftycarts:hand_cart",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "reward": {
+      "item": {
+        "id": "farmersdelight:horse_feed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Better than donkeys"
+    },
+    "description": [
+      "The hand cart carries the equivalent of one chest of items. This is more storage than a donkey provides, so this can be very useful on long journeys where you need to transport a lot of items."
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -12,
+          -69
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "niftycarts:hand_cart",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hand Cart"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships",
+        "bold": true,
+        "color": "dark_aqua"
+    },
+    "tip": {
+        "text": "Use leads to tie down your ship to a fence post to dock it, much like tying down a mob."
+    }
+}

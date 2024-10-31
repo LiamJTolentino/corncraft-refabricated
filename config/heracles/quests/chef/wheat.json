@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "intro_cook"
+  ],
+  "tasks": {
+    "wheat": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "wheat_seed": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat_seeds",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bonemeal": {
+      "title": "Bonemeal to grow more crops",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Get wheat"
+    },
+    "description": [
+      "Wheat seeds can be obtained by breaking grass plants found on top of grass blocks. The wheat crop itself can only be obtained by growing wheat seeds on farmland. If you're playing modded Minecraft, I should not be telling you how wheat works."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -277,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:grass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wheat"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

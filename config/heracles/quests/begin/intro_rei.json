@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "rei_done": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "rei_craft": {
+      "item": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "An Intro to Roughly Enough Items (REI)"
+    },
+    "description": [
+      "__**/4/An Introduction to Roughly Enough Items/4/**__",
+      "",
+      "You may have noticed that when you open your inventory, there are a bunch of items on either side. Some of you older players may remember **Too Many Items (TMI)**, **Not Enough Items (JEI)**, or **Just Enough Items (JEI)**. If you remember using those mods, --you can skip reading-- and just complete this quest as /9/**Roughly Enough Items (REI)**/9/ works the same way. However, if you are new to modded Minecraft, keep reading as this is perhaps the mod you will use the most.",
+      "",
+      "==========",
+      "",
+      "> When you hover over an item in your inventory or in the REI section on the right, you can press /e/**[R]**/e/ on your keyboard to see__ how that item is crafted__, or you can press /e/**[U]**/e/ to see what other __items you can craft using this item__. This will be how you learn to craft most of the modded items and it saves a lot of time rather than searching through wikis to learn how to craft things.",
+      "",
+      "Much like other keybinds, you can change which buttons to press to do these functions. Alternatively, if your mouse is hovering over an item on the /9/REI/9/ menu, you can /3/**[Left-Click]**/3/ the item to view its recipe or /3/**[Right-Click]**/3/ it to see what recipes it can be used in. This can save a lot of time, especially if you're going down a chain of recipes.",
+      "",
+      "> If you hover over an item and press /e/**[a]**/e/ on your keyboard, you can --save that item to your favorites--. Notice that it appears on the **left side** of the screen. This can be helpful if you have an item you need to craft frequently.",
+      "",
+      "Speaking of crafting, /9/REI/9/ helps a lot with that too! Notice that when you view a crafting recipe, there is a gray /8/**[+]**/8/ sign button. If you have the right materials to craft that item and you are in the correct crafting menu, clicking that will automatically put the items into the correct slots.",
+      "",
+      "> Also, if you hold down /e/**[Shift]**/e/ when you click on the button, it will distribute all the materials you have to craft as many of that item as possible. Basically, think of this feature as an alternative to the recipe book.",
+      "",
+      "==========",
+      "",
+      "Finally, I'd like to introduce you to the **search bar** at the bottom. You may have noticed that it lets you search for any item in the modpack, but there is so much more to its functionality that I can't fully explain here.",
+      "",
+      "> If you **double-click** the search bar, it will turn /e/yellow/e/. This means it is in highlight mode, so if you search for an item in the search bar, it will highlight any slot in any inventory you open that matches the item you search for. This can save a lot of time when you look for items in chests. **Double-click** again to turn this off.",
+      "",
+      "If you're looking for items from a certain mod, type \"/2/--@--/2/\" in the search bar and then type the name of the mod. For example, if I want to find all the items from the Create mod, I can search \"/2/--@create--/2/\" and all the items from Create will appear to the right. "
+    ],
+    "groups": {
+      "Begin!": {
+        "position": [
+          -120,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Intro to REI"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

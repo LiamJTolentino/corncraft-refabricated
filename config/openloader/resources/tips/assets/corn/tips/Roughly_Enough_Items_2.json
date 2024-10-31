@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Roughly Enough Items",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Press [a] while hovering over an item to save it. It will then appear on the left side in your inventory screen. This can be helpful if you have items that you frequently need to craft."
+    }
+}

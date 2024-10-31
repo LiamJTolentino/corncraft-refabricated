@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Roughly Enough Items",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "When viewing a recipe in REI, you can press the [+] button to automatically place items in your inventory into the correct configuration, as long as you have the right crafting inventory opened."
+    }
+}

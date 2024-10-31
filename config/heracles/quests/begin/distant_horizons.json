@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "dh_done": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "dh_xp": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "dh_telescope": {
+      "item": {
+        "id": "minecraft:spyglass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "/4/__**On Distant Horizons**__/4/",
+      "",
+      "Upon loading your world, you may have noticed that you can see a lot farther out than your set render distance. This is because of the /9/**Distant Horizons**/9/ mod. This mod allows you to --see terrain outside of your render distance-- so you can see a lot more of the world.",
+      "",
+      "> Most of the exploration in this modpack is balanced around this mod as a lot of the features of the terrain generation mods are far too big to be appreciated with low render distances, and we want people with less powerful CPUs to appreciate these features. ",
+      "",
+      "If you are still experiencing lag as a result of this mod, you can change the settings by clicking the button __next to your FOV slider__ in the options menu so you can adjust it to fit your PC specs. Alternatively, you can increase the amount of memory allocated to Minecraft. If you are running this pack from the /2/Modrinth/2/ launcher, this can be done easily from the settings menu. However, if you are running from a different launcher, you will need to figure out how to do that from there.",
+      "",
+      "> In general, I recommend allocating /2/4096mb/2/ of RAM to have a smooth experience. Most computers nowadays should be able to handle that much, but it might be best to close other things running on your computer. If you're still experiencing severe lag after all that, you can simply disable or remove the /9/Distant Horizons/9/ mod."
+    ],
+    "groups": {
+      "Begin!": {
+        "position": [
+          -280,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Intro to Distant Horizons"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

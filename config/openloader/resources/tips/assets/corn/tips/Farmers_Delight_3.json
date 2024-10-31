@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Farmers Delight",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Breaking tall grass with a knife has a chance of dropping straw which can be used in various different recipes."
+    }
+}

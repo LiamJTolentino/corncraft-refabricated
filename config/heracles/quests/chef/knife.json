@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "intro_cook"
+  ],
+  "tasks": {
+    "knife": {
+      "type": "heracles:item",
+      "item": "#c:tools/knives",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft any kind of knife"
+    }
+  },
+  "rewards": {
+    "knife_xp": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "An essential tool in the kitchen"
+    },
+    "description": [
+      "Every chef needs a knife. In this mod, knives can be used for a variety of things like chopping food and harvesting materials. Craft one and see what you can do."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -343,
+          -187
+        ]
+      }
+    },
+    "icon": {
+      "item": "#c:tools/knives",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Knife"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

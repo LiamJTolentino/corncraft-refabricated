@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "monocle"
+  ],
+  "tasks": {
+    "wheel": {
+      "type": "heracles:item",
+      "item": "niftycarts:wheel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "carrot": {
+      "title": "Golden carrots for breeding horses",
+      "item": {
+        "id": "minecraft:golden_carrot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Attachments for your horses"
+    },
+    "description": [
+      "__**/4/Nifty Carts/4/**__",
+      "",
+      "This modpack has the **Nifty Carts mod** which adds a bunch of useful carts to attach to your horse. The wheel is required for all of these recipes, so be sure to craft as much as you need. ",
+      "",
+      "To use the cart, place it down, then while riding your horse, go near the cart and press /e/**[y]**/e/ on your keyboard to --attach it--. Pressing the button again will --detach it-- as well.",
+      "",
+      "As a reward for this quest, you will receive some golden carrots. You can use these for your own food or to breed horses."
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -65,
+          -69
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "niftycarts:wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Nifty Carts"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

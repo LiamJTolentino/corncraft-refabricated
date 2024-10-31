@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Create mod allows you to move mob spawners with contraptions. Attach the spawner to a train or minecart contraption and send it wherever you want."
+    }
+}

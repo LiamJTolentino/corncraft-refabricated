@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "wheel"
+  ],
+  "tasks": {
+    "cart": {
+      "type": "heracles:item",
+      "item": "niftycarts:animal_cart",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "reward": {
+      "item": {
+        "id": "farmersdelight:horse_feed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Carry mobs more easily"
+    },
+    "description": [
+      "The animal cart works similarly to a normal boat in that it can carry two mobs, but unlike a boat, you don't need to ride an animal cart to move it as it simply attaches to your horse. This means that you can carry two mobs at once making it a lot easier to transport mobs like villagers across the land."
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -68,
+          -115
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "niftycarts:animal_cart",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Animal Cart"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

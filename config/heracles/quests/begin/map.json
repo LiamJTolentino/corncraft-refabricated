@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "map_done": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "map_item": {
+      "item": {
+        "id": "minecraft:recovery_compass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "How to use the world map"
+    },
+    "description": [
+      "/4/__**The Antique Atlas**__/4/",
+      "",
+      "Press /e/**[M]**/e/ on your keyboard to open up the **world atlas**. This will keep track of land you've explored in the world as well as villages you've discovered. You can also create your own markers to mark locations you want to remember. ",
+      "",
+      "> Be warned that there have been some glitches with this mod where sometimes mapped areas get deleted after a while, so make a habit of marking important locations when you travel far out."
+    ],
+    "groups": {
+      "Begin!": {
+        "position": [
+          -120,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:filled_map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "World Map"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

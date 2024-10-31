@@ -1,0 +1,11 @@
+{
+  "item": "minecraft:paper",
+  "name": "\u00266Ticket of Eternal Keeping",
+  "lore": [
+    "\u0026bThis ticket allows whoever carries it",
+    "\u0026bin the inventory to keep their items when they die.",
+    "",
+    "\u00264\u0026lIt is consumed at death"
+  ],
+  "CustomModelDataNumber": 506
+}

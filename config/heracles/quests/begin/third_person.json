@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "third_person_done": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "third_person_xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "**__/4/A Better Third Person Experience/4/__**",
+      "",
+      "If you go into third person mode, you might notice something looks a bit different. That is because this modpack uses /9/Leawind's Third Person/9/ mod. This mod completely changes the third person mechanics in Minecraft to give you a lot more control over the camera. If you want, you can just play --without even acknowledging this mod-- as Minecraft is still mostly a first person game, but if you would like to learn more, keep reading.",
+      "",
+      "> While in third person, press and hold /e/**[Z]**/e/ on your keyboard (unless I forgot to change the settings in an update, in which case it's/3/ **[Mouse5]**/3/) and move your mouse around. Notice that you can now pan the camera around freely. Now, with the button still held, scroll your **mouse wheel** any direction. Notice that you can now control how close the camera is to your character. With this button, you can completely control your third person camera however you like.",
+      "",
+      "There are a lot more features in this mod than just that button, so feel free to mess around with the config and stuff, but for now, that button should give you everything you need."
+    ],
+    "groups": {
+      "Begin!": {
+        "position": [
+          -280,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:player_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "A Better Third Person Experience"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

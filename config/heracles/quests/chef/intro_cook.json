@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "intro_chef": {
+      "title": "Done Reading",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "intro_corn": {
+      "title": "Free Corn",
+      "item": {
+        "id": "corndelight:corn",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The beginning of your journey as a chef"
+    },
+    "description": [
+      "/4/__**The Chef's Questline**__/4/",
+      "",
+      "This questline is focused around the food mods in this pack. By the end of this questline, you will hopefully have --every single food item in the game.-- To make things easier, you will be provided with some /6/corn/6/, but for most of the ingredients, you will have to find them on your own."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -343,
+          -136
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:skillet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": {
+      "translate": "Chef's Beginnings"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

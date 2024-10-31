@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "intro_cook"
+  ],
+  "tasks": {
+    "tomato_seed": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato_seeds",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "tomato": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bonemeal": {
+      "title": "Bonemeal to grow more crops",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Get tomatoes"
+    },
+    "description": [
+      "Wild tomatoes can be found in arid climates like /6/deserts/6/. Tomatoes can also be found in villages. To get the seeds, simply put the tomato in a crafting slot and it will craft into tomato seeds. You can also place **ropes** above the tomato crop to allow it to grow up to **two more blocks**. "
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -411,
+          -38
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:wild_tomatoes",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tomatoes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "intro_cook",
+    "cabbage",
+    "beets",
+    "onion",
+    "potato",
+    "wheat",
+    "tomato",
+    "rice",
+    "carrot"
+  ],
+  "tasks": {},
+  "rewards": {
+    "rich_soil": {
+      "item": {
+        "id": "farmersdelight:rich_soil",
+        "count": 81
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find all the natural crops and be rewarded"
+    },
+    "description": [
+      "A lot of recipes require basic crops. Acquire all of them and you will be rewarded with rich soil which will help your crops grow faster."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -343,
+          -57
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_hoe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Wild Crops"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

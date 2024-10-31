@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Trains can move through nether portals. Use this to transport things between dimensions."
+    }
+}

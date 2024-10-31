@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Eureka Ships",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Use floaters to help your ship stay afloat. It's best to place them on the layer where the ship touches the water."
+    }
+}

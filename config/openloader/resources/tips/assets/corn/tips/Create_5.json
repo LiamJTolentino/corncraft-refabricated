@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "If a source of liquid has at least 10,000 blocks, the hose pulley can pull infinite amounts of that liquid."
+    }
+}

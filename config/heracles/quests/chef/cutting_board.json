@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "knife"
+  ],
+  "tasks": {
+    "cutting_board": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 2,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Another essential tool in the kitchen"
+    },
+    "description": [
+      "The cutting board is mainly used to chop food, but can also do other things. Chopping food usually gives you more ingredients to work with, so the cutting board can help with using resources efficiently.",
+      "",
+      "To use the cutting board, place the item you want to chop on the board by /3/right-clicking/3/ and then /3/right-click/3/ the board again using the tool you want to use, and the resulting item will pop right out.",
+      "",
+      "To make things easier, place the stack of items in your **offhand** (the shield slot) and the tool in your **main hand** and just hold /3/right-click/3/ on the cutting board."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -277,
+          -187
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cutting_board",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cutting Board"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

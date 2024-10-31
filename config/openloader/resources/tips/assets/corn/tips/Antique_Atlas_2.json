@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Antique Atlas",
+        "bold": true,
+        "color": "brown"
+    },
+    "tip": {
+        "text": "When exploring, use markers to mark where your mount is so you can return to it later."
+    }
+}

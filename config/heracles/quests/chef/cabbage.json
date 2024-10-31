@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "intro_cook"
+  ],
+  "tasks": {
+    "cabbage": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "cabbage_seed": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage_seeds",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bonemeal": {
+      "title": "Bonemeal to grow more crops",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Get cabbages"
+    },
+    "description": [
+      "Wild cabbages can be found on /6/beaches/6/. You can also find cabbages in villages. Cabbage crops act much like wheat crops in that they drop both the item and the seed upon harvesting."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -411,
+          -76
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:wild_cabbages",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cabbages"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

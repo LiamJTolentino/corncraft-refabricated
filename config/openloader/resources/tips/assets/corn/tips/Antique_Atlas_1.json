@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Antique Atlas",
+        "bold": true,
+        "color": "brown"
+    },
+    "tip": {
+        "text": "Press [M] to open the world map and see what places you've explored."
+    }
+}

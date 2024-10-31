@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "knife"
+  ],
+  "tasks": {
+    "straw": {
+      "type": "heracles:item",
+      "item": "farmersdelight:straw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "straw_item": {
+      "title": "A lot more straw for you :)",
+      "item": {
+        "id": "farmersdelight:straw_bale",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used in a lot of crafting recipes"
+    },
+    "description": [
+      "Using a knife, you can cut grass to obtain straw. This is used in a variety of crafting recipes."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -411,
+          -187
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:straw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Straw"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

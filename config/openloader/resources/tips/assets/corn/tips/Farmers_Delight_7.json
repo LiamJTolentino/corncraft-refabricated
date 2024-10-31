@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Farmers Delight",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Milk bottles can be used in every recipe that uses milk buckets, but drinking them only removes a single effect rather than all at once."
+    }
+}

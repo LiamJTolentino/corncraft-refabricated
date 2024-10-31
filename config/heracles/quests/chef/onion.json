@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "intro_cook"
+  ],
+  "tasks": {
+    "onions": {
+      "type": "heracles:item",
+      "item": "farmersdelight:onion",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bonemeal": {
+      "title": "Bonemeal to grow more crops",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Get onions"
+    },
+    "description": [
+      "Wild onions can be found in temperate biomes and appear as alliums. You can also sometimes find onions in villages."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -411,
+          -109
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:wild_onions",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Onions"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

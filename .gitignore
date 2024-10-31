@@ -1,0 +1,11 @@
+saves/*
+schematics/*
+crash-reports/*
+music_sheets/*
+logs/*
+resourcepacks/*
+usercache.json
+usernamecache.json
+shaderpacks/*
+screenshots/
+essential/

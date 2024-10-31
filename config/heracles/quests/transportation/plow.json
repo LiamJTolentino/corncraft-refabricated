@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "wheel"
+  ],
+  "tasks": {
+    "cart": {
+      "type": "heracles:item",
+      "item": "niftycarts:plow",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "reward": {
+      "item": {
+        "id": "minecraft:iron_hoe",
+        "count": 3,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Helps with making paths and farmland"
+    },
+    "description": [
+      "The plow makes it a lot easier to till farmland or to create paths. /3/**Right-click**/3/ the plow while --crouching-- to open its inventory and insert hoes or shovels, depending on what you want to use it for. Exit the inventory and /3/**right-click**/3/ the plow normally to toggle it on or off. If the arms are tilted down, that means the plow is active, so when you start moving it with your horse, it will till or path the dirt you walk across, depending on what tool you placed."
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -66,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "niftycarts:plow",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Plow"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

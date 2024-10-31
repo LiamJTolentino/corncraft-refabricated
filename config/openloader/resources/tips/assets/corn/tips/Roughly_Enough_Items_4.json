@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Roughly Enough Items",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Ctrl+o lets you toggle the REI menu in your inventory."
+    }
+}

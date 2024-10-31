@@ -1,0 +1,69 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "idk": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "saturation": {
+      "title": "Saturation for 20 minutes",
+      "command": "effect give @s minecraft:saturation 24000 2 true",
+      "type": "heracles:command"
+    },
+    "intro": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "axe": {
+      "item": {
+        "id": "minecraft:stone_axe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Welcome to CornCraft: Refabricated!\nThis quest system will be your guide through the different mods. "
+    },
+    "description": [
+      "__**/4/Welcome to CornCraft: Refabricated!/4/**__",
+      "",
+      "> This quest system will serve as your guide through the various mods in this pack. You can view this quest menu by pressing /e/**[U]**/e/ on your keyboard by default, or if you're in survival mode, you can open your inventory and click on the --button below the hotbar--. These quests are meant to guide you through the progression of this modpack and introduce you to features that may help you progress through the modpack. You can choose to ignore these quests and play through the modpack as you please, but remember that these quests offer /e/rewards/e/ upon completion. These rewards can greatly accelerate your progression through the game.",
+      "",
+      "> To continue to the next quests, click on the button on the left that says /6/\"Tasks\"/6/ and click on the /2/checkbox/2/. Many other quests will be like this one where you only need to click on a checkbox to complete them, but most of them will require more work. "
+    ],
+    "groups": {
+      "Begin!": {
+        "position": [
+          -200,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "corndelight:corn",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": {
+      "translate": "Welcome"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

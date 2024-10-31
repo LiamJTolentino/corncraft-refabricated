@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships",
+        "bold": true,
+        "color": "dark_aqua"
+    },
+    "tip": {
+        "text": "The Cog, the Brigg, and the Drakkar are great ships for cold water biomes."
+    }
+}

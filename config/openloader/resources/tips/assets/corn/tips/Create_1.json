@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Deployers can be set to attack. Give them a weapon to kill mobs in your mob farm so you can get certain drops."
+    }
+}

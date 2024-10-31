@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Better Ore Smelting",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Instead of smelting one raw ore at a time, you can craft them into raw ore blocks and smelt them into full blocks. This takes more time, but is more space-efficient."
+    }
+}

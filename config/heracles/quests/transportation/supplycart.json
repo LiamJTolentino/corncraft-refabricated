@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "handcart"
+  ],
+  "tasks": {
+    "cart": {
+      "type": "heracles:item",
+      "item": "niftycarts:supply_cart",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "reward": {
+      "item": {
+        "id": "farmersdelight:horse_feed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Better than hand carts"
+    },
+    "description": [
+      "The supply cart is a direct upgrade to the hand cart as it provides a large chest worth of storage. That's it. It's literally just a better version."
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          44,
+          -69
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "niftycarts:supply_cart",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Supply Cart"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

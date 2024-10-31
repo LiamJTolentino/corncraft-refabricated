@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "intro_cook"
+  ],
+  "tasks": {
+    "carrot": {
+      "type": "heracles:item",
+      "item": "minecraft:carrot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bonemeal": {
+      "title": "Bonemeal to grow more crops",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Get Carrots"
+    },
+    "description": [
+      "Wild carrots can be found in cold biomes. Carrots can be dropped occasionally by zombies upon killing them, but they can also be found in villages or even dungeon chests."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -277,
+          -76
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:wild_carrots",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Carrots"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

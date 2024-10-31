@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Comforts",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Sleeping in a hammock will skip to night instead of day."
+    }
+}

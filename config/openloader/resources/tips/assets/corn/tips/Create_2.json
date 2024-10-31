@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "You can move assembled trains to another track with your wrench."
+    }
+}

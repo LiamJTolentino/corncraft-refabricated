@@ -1,0 +1,76 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "fagdsgas": {
+      "recipes": [
+        "cookingforblockheads:milk_jar"
+      ],
+      "type": "heracles:recipe"
+    },
+    "fasdf": {
+      "entity": "minecraft:villager",
+      "type": "heracles:entity_interaction"
+    },
+    "ex": {
+      "amount": 1,
+      "xpType": "LEVEL",
+      "collectionType": "CONSUME",
+      "type": "heracles:xp"
+    },
+    "t": {
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether",
+      "type": "heracles:changed_dimension"
+    },
+    "f": {
+      "stat": "minecraft:play_time",
+      "target": 1,
+      "type": "heracles:stat"
+    },
+    "eat": {
+      "item": "farmersdelight:kelp_roll_slice",
+      "type": "heracles:item_interaction"
+    },
+    "dfsa": {
+      "block": "#minecraft:doors",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Begin!": {
+        "position": [
+          -405,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "test"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

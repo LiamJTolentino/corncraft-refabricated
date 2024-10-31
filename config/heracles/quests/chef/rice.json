@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "intro_cook"
+  ],
+  "tasks": {
+    "rice_panicle": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rice_panicle",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "rice_grain": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bonemeal": {
+      "title": "Bonemeal to grow more crops",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Get rice"
+    },
+    "description": [
+      "Wild rice can be found in /2/jungles/2/ and /2/swamps/2/. You can get the rice from the rice panicle by either placing it in a crafting slot to craft it into rice or by using it in the chopping board which will also give you straw.",
+      "",
+      "Rice needs to be planted in /1/one block deep water/1/, no more, no less. To harvest it, you only need to harvest the top block that grows above the water."
+    ],
+    "groups": {
+      "Chef": {
+        "position": [
+          -411,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:wild_rice",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rice"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

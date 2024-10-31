@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Eureka Ships",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "The anchor allows your vessel to stay in place while assembled. Apply a redstone signal to deploy the anchor."
+    }
+}
