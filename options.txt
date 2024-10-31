@@ -132,12 +132,12 @@ key_key.heracles.open_quests:key.keyboard.u
 key_key.immersive_aircraft.multi_control_left:key.keyboard.a
 key_key.immersive_aircraft.multi_control_right:key.keyboard.d
 key_key.immersive_aircraft.multi_control_forward:key.keyboard.w
-key_key.immersive_aircraft.multi_control_backward:key.keyboard.s
+key_key.immersive_aircraft.multi_control_backward:key.keyboard.unknown
 key_key.immersive_aircraft.multi_control_up:key.keyboard.space
 key_key.immersive_aircraft.multi_control_down:key.keyboard.left.shift
 key_key.immersive_aircraft.multi_control_pull:key.keyboard.s
 key_key.immersive_aircraft.multi_control_push:key.keyboard.w
-key_key.immersive_aircraft.multi_use:key.mouse.right
+key_key.immersive_aircraft.multi_use:key.mouse.0
 key_key.immersive_aircraft.dismount:key.keyboard.left.alt
 key_key.immersive_aircraft.boost:key.keyboard.b
 key_key.itemfavorites.favorite_item:key.keyboard.left.alt
@@ -165,9 +165,9 @@ key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
 key_key.smallships.ship_sail:key.keyboard.r
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.v
-key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
+key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
+key_keybind.sophisticatedbackpacks.sort:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
@@ -196,7 +196,7 @@ key_keybind.name.EMOTE_SLOT_5:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
-key_keybind.name.ZOOM:key.keyboard.c
+key_keybind.name.ZOOM:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.352112676056338
 soundCategory_record:1.0
