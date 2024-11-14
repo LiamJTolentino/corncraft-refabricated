@@ -10,8 +10,6 @@ blacklist = []
 # Amount of experience to grant on harvest (0 to disable, must be an integer).
 #Range: > 0
 "exp on harvest" = 0
-# Whether to use seeds from the player's inventory to replant crops if seeds are not dropped.
-"use seeds from inventory" = true
 # Whether to gather drops near the player when harvesting.
 "gather drops" = false
 # Tool tier starting from which it is possible to harvest multiple crops at once.
