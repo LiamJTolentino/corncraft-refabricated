@@ -1,0 +1,63 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "death_seven": {
+      "stat": "minecraft:deaths",
+      "target": 7,
+      "title": "Die seven times",
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {
+    "ticket": {
+      "title": "x1 Ticket of Eternal Keep",
+      "icon": {
+        "item": {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "getticket",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "So you've died 7 times..."
+    },
+    "description": [
+      "So you've died 7 times in this pack already...",
+      "Or maybe you're halfway through the game and you've finally hit your 7th death. Either way, you're probably sick of having to get your stuff back.",
+      "",
+      "For this, you will be rewarded with a **/e/Ticket of Eternal Keep/e/**. As long as it is in your inventory, you're essentially playing with --keepInventory-- set to true. Use this wisely as the only other way to get it is from loot chests..."
+    ],
+    "groups": {
+      "Begin!": {
+        "position": [
+          -145,
+          -79
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:skeleton_skull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "An Eternal Reward"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "COMPLETED",
+    "unlockNotification": false
+  }
+}

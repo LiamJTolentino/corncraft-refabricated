@@ -48,8 +48,8 @@
     "groups": {
       "Begin!": {
         "position": [
-          -405,
-          -192
+          -249,
+          -82
         ]
       }
     },
@@ -70,7 +70,7 @@
     "repeatable": false,
     "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED",
+    "hidden": "COMPLETED",
     "unlockNotification": false
   }
 }
