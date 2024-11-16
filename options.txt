@@ -92,8 +92,8 @@ key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
 key_key.sneak:key.keyboard.left.shift
-key_key.sprint:key.keyboard.q
-key_key.drop:key.keyboard.grave.accent
+key_key.sprint:key.keyboard.left.control
+key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
@@ -145,7 +145,7 @@ key_key.leawind_third_person.force_aiming:key.keyboard.unknown
 key_key.leawind_third_person.toggle_pitch_lock:key.keyboard.unknown
 key_key.leawind_third_person.open_config_menu:key.keyboard.keypad.3
 key_key.leawind_third_person.toggle_aiming:key.keyboard.unknown
-key_key.leawind_third_person.adjust_position:key.mouse.5
+key_key.leawind_third_person.adjust_position:key.keyboard.z
 key_key.leawind_third_person.toggle_side:key.keyboard.caps.lock
 key_key.leawind_third_person.toggle_mod_enable:key.keyboard.unknown
 key_key.lighty.enable:key.keyboard.f7
@@ -168,11 +168,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.v
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_zoomify.key.zoom:key.mouse.4
