@@ -1,3 +1,4 @@
+.mixin.out/*
 saves/*
 schematics/*
 crash-reports/*
@@ -11,8 +12,14 @@ screenshots/
 essential/
 irisUpdateInfo.json
 heracles_options.json
-fancymenu_data/
+fancymenu_data/*
 ModTranslations/
-options.txt
+# options.txt
 profile.json
 servers.*dat*
+config/roughlyenoughitems/*
+config/fabric/indigo-renderer.properties
+config/indium-renderer.properties
+config/iris.properties
+config/leawind_third_person.json
+config/lighty.config
