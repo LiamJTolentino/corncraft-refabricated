@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "ship_tutorial"
+  ],
+  "tasks": {
+    "ship_cog": {
+      "type": "heracles:item",
+      "item": "#smallships:cogs",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft any Cog ship"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Good for cold waters and item transport"
+    },
+    "description": [
+      "/3/__**The Cog**__/3/",
+      "",
+      "> The Cog is a medieval trade ship used in cold water biomes. It offers 108 item slots and can mount up to 4 cannons for defense. It can accommodate up to 5 passengers, including the captain. Although its maneuverability may not be the best, it is an excellent trading vessel with a top speed of 40 km/h and a sturdy hull strength of 300 hp.",
+      "-From the mod page",
+      "",
+      "/4/**>>====+=+====<<**/4/",
+      "",
+      "**/e/Biome Temp:/e/** /9/Cold/9/",
+      "",
+      "",
+      "**/e/Storage:/e/** 4 Chests (108 item slots)",
+      "/2/★★★★☆/2/",
+      "",
+      "**/e/Passengers:/e/** 5",
+      "/6/★★☆☆☆/6/",
+      "",
+      "**/e/Cannon Capacity:/e/** 4",
+      "/2/★★★★☆/2/",
+      "",
+      "**/e/Top Speed:/e/** 40 km/h",
+      "/6/★★★☆☆/6/",
+      "",
+      "**/e/Maneuverability:/e/** Ok",
+      "/6/★★☆☆☆/6/",
+      "",
+      "**/e/HP:/e/** 300",
+      "/2/★★★★☆/2/"
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -237,
+          -104
+        ]
+      }
+    },
+    "icon": {
+      "item": "#smallships:cogs",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Cog"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

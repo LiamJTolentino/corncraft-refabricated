@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "ship_sail": {
+      "type": "heracles:item",
+      "item": "smallships:sail",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "map": {
+      "title": "Treasure Map and other stuff",
+      "icon": {
+        "item": {
+          "id": "minecraft:filled_map",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "minecraft:chests/shipwreck_map",
+      "type": "heracles:loottable"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "\"Why am I crying? Was I accidentally listening to 'Come Sail Away' by Styx again?\""
+    },
+    "description": [
+      "/6/__**Small Ships Mod**__/6/",
+      "",
+      "Tired of having to row that vanilla Minecraft boat across the sea? We are too. Let's take advantage of the wind and craft some sails to begin our journey through the seven seas. "
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -200,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "smallships:sail",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": {
+      "translate": "Come Sail Away"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

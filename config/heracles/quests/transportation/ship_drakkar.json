@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "ship_tutorial"
+  ],
+  "tasks": {
+    "ship_drakkar": {
+      "type": "heracles:item",
+      "item": "#smallships:drakkars",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft any Drakkar ship"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Great for breaking through ice and carring many passengers"
+    },
+    "description": [
+      "/3/__**The Drakkar**__/3/",
+      "",
+      "> The Drakkar is specifically designed for cold water environments. It has 54 slots for items, exceptional maneuverability, and a top speed of 30 km/h. With seating for 11 passengers, including the captain and hull strength of 200 hp. --Shields--, also with banner patterns, can be attatched to grand **/c/additional defense/c/**. With its /9/ice breaker/9/ abbility, it proves to be a promising vessel in cold and icy oceans.",
+      "-From the mod page",
+      "",
+      "/4/**>>====+=+====<<**/4/",
+      "",
+      "**/e/Biome Temp:/e/** /9/Cold/9/",
+      "",
+      "",
+      "**/e/Storage:/e/** 2 Chests (54 item slots)",
+      "/c/★☆☆☆☆/c/",
+      "",
+      "**/e/Passengers:/e/** 11",
+      "/2/★★★★★/2/",
+      "",
+      "**/e/Cannon Capacity:/e/** 0",
+      "/4/☆☆☆☆☆/4/",
+      "",
+      "**/e/Top Speed:/e/** 30 km/h",
+      "/6/★★☆☆☆/6/",
+      "",
+      "**/e/Maneuverability:/e/** Exceptional (and can break through ice)",
+      "/a/★★★★★/a/",
+      "",
+      "**/e/HP:/e/** 200 (Can improve defense with shields",
+      "/6/★★★☆☆/6/"
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -239,
+          -27
+        ]
+      }
+    },
+    "icon": {
+      "item": "#smallships:drakkars",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Drakkar"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

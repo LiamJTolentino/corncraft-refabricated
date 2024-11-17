@@ -13,8 +13,28 @@
       "title": "x1 Ticket of Eternal Keep",
       "icon": {
         "item": {
-          "id": "minecraft:totem_of_undying",
-          "count": 1
+          "id": "minecraft:paper",
+          "count": 1,
+          "nbt": {
+            "display": {
+              "Name": "{\"text\":\"§6Ticket of Eternal Keeping\"}",
+              "Lore": [
+                "{\"text\":\"§bThis ticket allows whoever carries it\"}",
+                "{\"text\":\"§bin the inventory to keep their items when they die.\"}",
+                "{\"text\":\"\"}",
+                "{\"text\":\"§4§lIt is consumed at death\"}"
+              ]
+            },
+            "CustomModelData": 506,
+            "HideFlags": 1,
+            "Enchantments": [
+              {
+                "lvl": 1,
+                "id": "minecraft:binding_curse"
+              }
+            ],
+            "EternalKeep": 1
+          }
         },
         "type": "heracles:item"
       },

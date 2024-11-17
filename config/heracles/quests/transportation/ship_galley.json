@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "ship_tutorial"
+  ],
+  "tasks": {
+    "ship_galley": {
+      "type": "heracles:item",
+      "item": "#smallships:galleys",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft any Galley ship"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Good for warm waters and maneuverability"
+    },
+    "description": [
+      "/3/__**The Galley**__/3/",
+      "",
+      "> The Galley is specifically designed for warm water environments and naval warfare. It has 54 slots for items, exceptional maneuverability, and a top speed of 40 km/h. With seating for 9 passengers, including the captain and hull strength of 200 hp, it proves to be a promising vessel in various situations.",
+      "-From the mod page",
+      "",
+      "/4/**>>====+=+====<<**/4/",
+      "",
+      "**/e/Biome Temp:/e/** /6/Warm/6/",
+      "",
+      "",
+      "**/e/Storage:/e/** 2 Chests (54 item slots)",
+      "/c/★☆☆☆☆/c/",
+      "",
+      "**/e/Passengers:/e/** 9",
+      "/2/★★★★☆/2/",
+      "",
+      "**/e/Cannon Capacity:/e/** 2",
+      "/c/★★☆☆☆/c/",
+      "",
+      "**/e/Top Speed:/e/** 40 km/h",
+      "/6/★★★☆☆/6/",
+      "",
+      "**/e/Maneuverability:/e/** Exceptional",
+      "/2/★★★★☆/2/",
+      "",
+      "**/e/HP:/e/** 200",
+      "/c/★★☆☆☆/c/"
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -306,
+          -27
+        ]
+      }
+    },
+    "icon": {
+      "item": "#smallships:galleys",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Galley"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

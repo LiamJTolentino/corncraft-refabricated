@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "ship_tutorial"
+  ],
+  "tasks": {
+    "ship_brigg": {
+      "type": "heracles:item",
+      "item": "#smallships:briggs",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft any Brigg ship"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Great for combat and speed"
+    },
+    "description": [
+      "/3/__**The Brigg**__/3/",
+      "",
+      "> The Brigg is another medieval two-masted trade ship designed for cold water biomes. It provides 162 item slots and can mount up to 6 cannons for defense. With space for up to 11 passengers, including the captain, it excels in both trading and naval battles. The Brig has a top speed of 45 km/h, good maneuverability, and a hull strength of 400 hp.",
+      "-From the mod page",
+      "",
+      "/4/**>>====+=+====<<**/4/",
+      "",
+      "**/e/Biome Temp:/e/** /1/Cold/1/",
+      "",
+      "",
+      "**/e/Storage:/e/** 6 Chests (162 item slots)",
+      "/2/★★★★★/2/",
+      "",
+      "**/e/Passengers:/e/** 11",
+      "/2/★★★★★/2/",
+      "",
+      "**/e/Cannon Capacity:/e/** 6",
+      "/2/★★★★★/2/",
+      "",
+      "**/e/Top Speed:/e/** 45 km/h",
+      "/2/★★★★★/2/",
+      "",
+      "**/e/Maneuverability:/e/** Good",
+      "/6/★★★☆☆/6/",
+      "",
+      "**/e/HP:/e/** 400",
+      "/2/★★★★★/2/"
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -303,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": "#smallships:briggs",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Brigg"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

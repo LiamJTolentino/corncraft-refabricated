@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "ship_tutorial"
+  ],
+  "tasks": {
+    "ship_cannons": {
+      "type": "heracles:item",
+      "item": "smallships:cannon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "cannonballs": {
+      "item": {
+        "id": "smallships:cannon_ball",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Ship cannons and how to use them"
+    },
+    "description": [
+      "__**/4/How to use cannons on your ship/4/**__",
+      "",
+      "/6/**Step 1:**/6/",
+      "--/e/Right-click/e/-- your ship with a cannon item in hand to mount it to your ship",
+      "",
+      "/6/**Step 2:**/6/",
+      "Load your ship with **/8/cannonballs/8/** by putting them inside the --ship's inventory--",
+      "",
+      "/6/**Step 3:**/6/",
+      "Ride your ship, then look in the direction of the cannon you want to fire and press your /2/jump/2/ button (**/e/[SPACE]/e/** on your keyboard by default) to /c/fire/c/.",
+      "",
+      "__**/4/To Remove cannons:/4/**__",
+      "With any pickaxe in your hand, --/e/right-click/e/-- the ship to remove a cannon.",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "**/c/||+|| IMPORTANT NOTES ||+||/c/**",
+      "",
+      "> Each cannon you add to your ship will --/4/slow/4/ it down by **2.5%**--",
+      "",
+      "> Cargo will also slow down your ship, so for example, a ship full of cannonballs will be /4/**10% slower**/4/"
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -334,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "smallships:cannon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Naval Combat"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

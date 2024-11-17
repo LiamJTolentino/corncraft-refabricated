@@ -1,0 +1,100 @@
+{
+  "dependencies": [
+    "sail_away"
+  ],
+  "tasks": {
+    "done_reading": {
+      "title": "Done Reading?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "reading_reward": {
+      "title": "Treasure Map",
+      "icon": {
+        "item": {
+          "id": "minecraft:filled_map",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "minecraft:chests/shipwreck_map",
+      "type": "heracles:loottable"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Read this before crafting any ships"
+    },
+    "description": [
+      "/c/__**Small Ships Tutorial**__/c/",
+      "",
+      "Before you craft your first ship, it is important that you know how to control it. These ships do not work the same way as a vanilla boat, so you must learn the basic controls. Don't worry, it won't be too hard.",
+      "",
+      "> ||+|| Also important to note that you CANNOT pick up ships again like with boats. Once a ship is placed, it won't leave the water, so make sure you place it in a body of water connected to the ocean. ||+||",
+      "",
+      "",
+      "",
+      "/2/__**Ship Controls**__/2/",
+      "Press **/e/[R]/e/** on your keyboard to __set the sail.__ This is much like setting a car to the drive position in real life in that it will start to move forward slowly. --Pressing the key again-- will __retract the sail__ and cause the ship to slow to a stop.",
+      "",
+      "Moving forward and backward (**/e/[W]/e/** and **/e/[S]/e/** on your keyboard by default) will __control the speed__ of your ship which you can see by how big the sail is getting. ",
+      "",
+      "Turning left and right is the same as with a normal boat and with normal movement (**/e/[A]/e/** and **/e/[D]/e/** by default)",
+      "",
+      "Finally, you can __make entities ride the ship__ much like a normal boat. You can have 4 to 10 other players or mobs riding with you, depending on the type of ship. To dismount them, you just have to --/e/right-click/e/-- them. Much easier than a normal boat.",
+      "",
+      "",
+      "",
+      "**__/2/Ship Customization/2/__**",
+      "--/e/Right-click/e/-- the ship with a dye to color the sails",
+      "",
+      "--/e/Right-click/e/-- the ship with a nametag to name the ship",
+      "",
+      "",
+      "",
+      "**__/2/Repairing and Docking/2/__**",
+      "To repair the damage on your ship, have /6/wooden planks/6/ somewhere in your inventory and then --/e/right-click/e/-- the ship with /7/iron nuggets/7/ in your hand.",
+      "",
+      "Much like horses and other mobs, you can leash a ship with a lead to pull it around and tie it down to a fence post to dock it.",
+      "",
+      "",
+      "",
+      "/1/**=================**/1/",
+      "__**Mod Page explanation:**__",
+      "",
+      "> Place the ship far away from you, into water. They need space to spawn.",
+      "> Use Right Click to sit in the ship.",
+      "> Whilesitting in the Ship:   ",
+      "> Press \"R\" to open/close the Ships Sail. ",
+      "> Or Press \"W\" to increase and \"S\" to decrease the Sail.",
+      "> In Thrid Person View with F5 , scroll with you Mousewheel to change the distance of the View.",
+      "> To dismount a entity from the ship, right-click the entity.",
+      "> To open the Inventory outside of the ship,  use crouch+right-click on the ship."
+    ],
+    "groups": {
+      "Transportation": {
+        "position": [
+          -270,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": "#smallships:ships",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "How to sail a ship"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}
