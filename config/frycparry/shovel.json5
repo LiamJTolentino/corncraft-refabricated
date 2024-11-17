@@ -1,0 +1,26 @@
+{
+	"enableBlockingWithShovel": true,
+	"shovelParryTicks": 2,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"shovelBlockMeleeDamageTaken": 71,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"shovelBlockArrowDamageTaken": 82,
+	"shovelParryKnockbackStrength": 9.0,
+	"shovelSlownessAfterParry": 110,
+	"shovelSlownessAfterParryAmplifier": 1,
+	"shovelWeaknessAfterParry": 0,
+	"shovelWeaknessAfterParryAmplifier": 1,
+	"shovelDisarmAfterParry": 28,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
+	*/
+	"cooldownAfterInterruptingShovelBlockAction": -2.4000000953674316,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterShovelParryAction": -1.7999999523162842,
+	"shouldStopUsingShovelAfterBlockOrParry": true,
+	"maxUseTime": 7200
+}

@@ -1,0 +1,26 @@
+{
+	"enableBlockingWithPickaxe": true,
+	"pickaxeParryTicks": 0,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"pickaxeBlockMeleeDamageTaken": 80,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"pickaxeBlockArrowDamageTaken": 95,
+	"pickaxeParryKnockbackStrength": 5.0,
+	"pickaxeSlownessAfterParry": 100,
+	"pickaxeSlownessAfterParryAmplifier": 1,
+	"pickaxeWeaknessAfterParry": 0,
+	"pickaxeWeaknessAfterParryAmplifier": 1,
+	"pickaxeDisarmAfterParry": 20,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
+	*/
+	"cooldownAfterInterruptingPickaxeBlockAction": -2.799999952316284,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterPickaxeParryAction": -2.5,
+	"shouldStopUsingPickaxeAfterBlockOrParry": true,
+	"maxUseTime": 7200
+}

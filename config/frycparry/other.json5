@@ -1,0 +1,31 @@
+{
+	// When true, axe attack will set cooldown whether it was parry or not
+	"disableBlockAfterParryingAxeAttack": false,
+	// Dual wielding settings: 0 - player can block and parry with empty offhand;  1 - player can also block and parry when dual wields weapons; 2 - player can block and parry with any item in offhand;
+	"enableBlockingWhenDualWielding": 0,
+	// For items that are not swords, shovels, axes (etc), but have attack speed attribute
+	"enableBlockingWithOtherTools": false,
+	"parryTicks": 0,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"blockMeleeDamageTaken": 80,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"blockArrowDamageTaken": 95,
+	"parryKnockbackStrength": 5.0,
+	"slownessAfterParry": 100,
+	"slownessAfterParryAmplifier": 1,
+	"weaknessAfterParry": 0,
+	"weaknessAfterParryAmplifier": 1,
+	"disarmAfterParry": 20,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
+	*/
+	"cooldownAfterInterruptingBlockAction": -2.799999952316284,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterParryAction": -2.5,
+	"shouldStopUsingAfterBlockOrParry": true,
+	"maxUseTime": 7200
+}

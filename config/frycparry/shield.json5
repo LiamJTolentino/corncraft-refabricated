@@ -1,0 +1,24 @@
+{
+	"shieldParryTicks": 10,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"shieldBlockMeleeDamageTaken": 0,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"shieldBlockArrowDamageTaken": 0,
+	"shieldParryKnockbackStrength": 9.0,
+	"shieldSlownessAfterParry": 100,
+	"shieldSlownessAfterParryAmplifier": 1,
+	"shieldWeaknessAfterParry": 0,
+	"shieldWeaknessAfterParryAmplifier": 1,
+	"shieldDisarmAfterParry": 45,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
+	*/
+	"cooldownAfterInterruptingShieldBlockAction": 0.0,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterShieldParryAction": 1.0,
+	"shouldStopUsingShieldAfterBlockOrParry": false
+}

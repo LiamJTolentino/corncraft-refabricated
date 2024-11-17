@@ -1,0 +1,26 @@
+{
+	"enableBlockingWithHoe": true,
+	"hoeParryTicks": 1,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"hoeBlockMeleeDamageTaken": 85,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"hoeBlockArrowDamageTaken": 97,
+	"hoeParryKnockbackStrength": 3.0,
+	"hoeSlownessAfterParry": 40,
+	"hoeSlownessAfterParryAmplifier": 1,
+	"hoeWeaknessAfterParry": 0,
+	"hoeWeaknessAfterParryAmplifier": 1,
+	"hoeDisarmAfterParry": 25,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
+	*/
+	"cooldownAfterInterruptingHoeBlockAction": -2.0,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterHoeParryAction": -1.0,
+	"shouldStopUsingHoeAfterBlockOrParry": true,
+	"maxUseTime": 7200
+}

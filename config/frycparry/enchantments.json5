@@ -1,0 +1,10 @@
+{
+	// Set it to 0 to make shield unenchantable
+	"shieldEnchantability": 12,
+	// Disabled enchantments are unobtainable in survival mode
+	"enableReflexEnchantment": true,
+	"enableParryEnchantment": true,
+	"enableCounterattackEnchantment": true,
+	// This option doesn't do anything when blocking with axes and swords is disabled (or enchantments are disabled)
+	"enchantmentsForShieldsCanAppearOnWeaponsInChests": false
+}

@@ -1,0 +1,24 @@
+{
+	// When false, dontUseParryKey is toggleable (press it to disable blocking and parrying, and press again to enable)
+	"holdDontUseParryKey": false,
+	// Rotation, translation and scale of items when blocking
+	"useOriginalRotation": false,
+	"itemRotationX": 121.0,
+	"itemRotationY": -83.0,
+	"itemRotationZ": 185.0,
+	"useOriginalTranslation": false,
+	"itemTranslationX": -1.5,
+	"itemTranslationY": 2.200000047683716,
+	"itemTranslationZ": -1.0,
+	"useOriginalScale": true,
+	"itemScaleX": 0.6800000071525574,
+	"itemScaleY": 0.6800000071525574,
+	"itemScaleZ": 0.6800000071525574,
+	// If you play singleplayer, use server sided config (axe.json5, sword.json5 etc.) for options under this comment. These options only disable keybind (game behaves like you have never pressed parry key if you have a disabled item in your mainhand).You will still get cooldowns after swapping disabled items
+	"enableBlockingWithSword": true,
+	"enableBlockingWithAxe": true,
+	"enableBlockingWithHoe": true,
+	"enableBlockingWithShovel": true,
+	"enableBlockingWithPickaxe": true,
+	"enableBlockingWithOtherTools": true
+}

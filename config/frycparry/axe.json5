@@ -1,0 +1,26 @@
+{
+	"enableBlockingWithAxe": true,
+	"axeParryTicks": 4,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"axeBlockMeleeDamageTaken": 43,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"axeBlockArrowDamageTaken": 85,
+	"axeParryKnockbackStrength": 7.0,
+	"axeSlownessAfterParry": 100,
+	"axeSlownessAfterParryAmplifier": 1,
+	"axeWeaknessAfterParry": 0,
+	"axeWeaknessAfterParryAmplifier": 1,
+	"axeDisarmAfterParry": 45,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
+	*/
+	"cooldownAfterInterruptingAxeBlockAction": -2.0999999046325684,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterAxeParryAction": -1.100000023841858,
+	"shouldStopUsingAxeAfterBlockOrParry": true,
+	"maxUseTime": 7200
+}

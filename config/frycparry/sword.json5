@@ -1,0 +1,26 @@
+{
+	"enableBlockingWithSword": true,
+	"swordParryTicks": 4,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"swordBlockMeleeDamageTaken": 50,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"swordBlockArrowDamageTaken": 90,
+	"swordParryKnockbackStrength": 6.0,
+	"swordSlownessAfterParry": 100,
+	"swordSlownessAfterParryAmplifier": 1,
+	"swordWeaknessAfterParry": 0,
+	"swordWeaknessAfterParryAmplifier": 1,
+	"swordDisarmAfterParry": 45,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
+	*/
+	"cooldownAfterInterruptingSwordBlockAction": -2.0,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterSwordParryAction": -1.0,
+	"shouldStopUsingSwordAfterBlockOrParry": true,
+	"maxUseTime": 7200
+}
