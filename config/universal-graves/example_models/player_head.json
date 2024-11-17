@@ -6,7 +6,8 @@
       "type": "ITEM",
       "display_item": {
         "id": "minecraft:air",
-        "Count": 0
+        "Count": 0,
+        "tag": {}
       },
       "item_model_transformation": "FIXED",
       "transformation": {
@@ -57,7 +58,8 @@
       "type": "ITEM",
       "display_item": {
         "id": "minecraft:air",
-        "Count": 0
+        "Count": 0,
+        "tag": {}
       },
       "item_model_transformation": "FIXED",
       "transformation": {

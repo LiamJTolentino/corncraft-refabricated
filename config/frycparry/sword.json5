@@ -15,12 +15,12 @@
 	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
 	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
 	*/
-	"cooldownAfterInterruptingSwordBlockAction": -2.0,
+	"cooldownAfterInterruptingSwordBlockAction": -1.0,
 	/* Values above 0 describe number of ticks item will be disabled for 
 	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
 	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
 	*/
-	"cooldownAfterSwordParryAction": -1.0,
+	"cooldownAfterSwordParryAction": -0.5,
 	"shouldStopUsingSwordAfterBlockOrParry": true,
 	"maxUseTime": 7200
 }
