@@ -24,3 +24,6 @@ config/indium-renderer.properties
 config/iris.properties
 config/leawind_third_person.json
 config/lighty.config
+
+ops.json
+whitelist.json
