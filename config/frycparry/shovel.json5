@@ -21,6 +21,6 @@
 	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
 	*/
 	"cooldownAfterShovelParryAction": -1.7999999523162842,
-	"shouldStopUsingShovelAfterBlockOrParry": true,
+	"shouldStopUsingShovelAfterBlockOrParry": false,
 	"maxUseTime": 7200
 }

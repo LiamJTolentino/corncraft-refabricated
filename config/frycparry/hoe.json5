@@ -21,6 +21,6 @@
 	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
 	*/
 	"cooldownAfterHoeParryAction": -1.0,
-	"shouldStopUsingHoeAfterBlockOrParry": true,
+	"shouldStopUsingHoeAfterBlockOrParry": false,
 	"maxUseTime": 7200
 }

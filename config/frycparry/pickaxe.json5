@@ -21,6 +21,6 @@
 	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
 	*/
 	"cooldownAfterPickaxeParryAction": -2.5,
-	"shouldStopUsingPickaxeAfterBlockOrParry": true,
+	"shouldStopUsingPickaxeAfterBlockOrParry": false,
 	"maxUseTime": 7200
 }

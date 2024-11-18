@@ -21,6 +21,6 @@
 	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
 	*/
 	"cooldownAfterSwordParryAction": -0.5,
-	"shouldStopUsingSwordAfterBlockOrParry": true,
+	"shouldStopUsingSwordAfterBlockOrParry": false,
 	"maxUseTime": 7200
 }
