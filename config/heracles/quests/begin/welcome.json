@@ -16,15 +16,17 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "axe": {
-      "item": {
-        "id": "minecraft:stone_axe",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+    "kit": {
+      "title": "Receive: Survival Kit",
+      "icon": {
+        "item": {
+          "id": "metalbundles:golden_bundle",
+          "count": 1
+        },
+        "type": "heracles:item"
       },
-      "type": "heracles:item"
+      "command": "give @s metalbundles:golden_bundle{Items: [{id: \"minecraft:stone_axe\", tag: {Damage: 0}, Count: 1, Favorite: 0}, {id: \"comforts:sleeping_bag_red\", Favorite: 0, Count: 1}, {id: \"minecraft:shield\", tag: {Damage: 0}, Count: 1, Favorite: 0}, {id: \"basicweapons:stone_spear\", tag: {Damage: 0}, Count: 1, Favorite: 0}, {id: \"musketmod:pistol\", tag: {Damage: 0}, Count: 1, Favorite: 0}, {id: \"musketmod:cartridge\", Favorite: 0, Count: 32}], display: {Name: \"{\\\"text\\\":\\\"Survival Kit\\\"}\"}, RepairCost: 0}",
+      "type": "heracles:command"
     }
   },
   "display": {

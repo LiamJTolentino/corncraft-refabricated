@@ -1,4 +1,5 @@
 .mixin.out/*
+.fabric/*
 saves/*
 schematics/*
 crash-reports/*
