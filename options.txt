@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:8
+renderDistance:6
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:2
@@ -130,7 +130,7 @@ key_key.createbigcannons.pitch_mode:key.keyboard.c
 key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
 key_key.jetpack.toggle_active.description:key.keyboard.g
 key_key.jetpack.toggle_hover.description:key.keyboard.h
-key_key.frycparry.key_parry:key.keyboard.r
+key_key.frycparry.key_parry:key.mouse.4
 key_key.frycparry.key_dont_parry:key.keyboard.unknown
 key_key.heracles.open_quests:key.keyboard.u
 key_key.immersive_aircraft.multi_control_left:key.keyboard.a
@@ -149,7 +149,7 @@ key_key.leawind_third_person.force_aiming:key.keyboard.unknown
 key_key.leawind_third_person.toggle_pitch_lock:key.keyboard.unknown
 key_key.leawind_third_person.open_config_menu:key.keyboard.keypad.3
 key_key.leawind_third_person.toggle_aiming:key.keyboard.unknown
-key_key.leawind_third_person.adjust_position:key.mouse.5
+key_key.leawind_third_person.adjust_position:key.keyboard.z
 key_key.leawind_third_person.toggle_side:key.keyboard.caps.lock
 key_key.leawind_third_person.toggle_mod_enable:key.keyboard.unknown
 key_key.lighty.enable:key.keyboard.f7
@@ -176,14 +176,14 @@ key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_key.weaponmaster_ydm.opengui:key.keyboard.keypad.5
-key_zoomify.key.zoom:key.mouse.4
+key_zoomify.key.zoom:key.mouse.5
 key_zoomify.key.zoom.secondary:key.keyboard.f6
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
@@ -195,7 +195,7 @@ key_keybind.name.SCREENSHOT_MANAGER:key.keyboard.i
 key_keybind.name.COSMETICS_VISIBILITY_TOGGLE:key.keyboard.unknown
 key_keybind.name.CHAT_PEEK:key.keyboard.unknown
 key_keybind.name.INVITE_FRIENDS:key.keyboard.unknown
-key_keybind.name.EMOTE_WHEEL:key.keyboard.tab
+key_keybind.name.EMOTE_WHEEL:key.keyboard.j
 key_keybind.name.EMOTE_SLOT_1:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_2:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_3:key.keyboard.unknown

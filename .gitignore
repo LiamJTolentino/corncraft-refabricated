@@ -24,6 +24,8 @@ config/indium-renderer.properties
 config/iris.properties
 config/leawind_third_person.json
 config/lighty.config
+config/inventoryprofilesnext/*
+config/world_preview/*
 
 ops.json
 whitelist.json
