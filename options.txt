@@ -160,6 +160,7 @@ key_key.niftycarts.slow:key.keyboard.z
 key_key.nyfsquiver.open_quiver:key.keyboard.o
 key_key.nyfsquiver.increase_slot:key.keyboard.right.bracket
 key_key.nyfsquiver.decrease_slot:key.keyboard.left.bracket
+key_key.observable.profile:key.keyboard.f9
 key_ping-wheel.key.ping-location:key.keyboard.n
 key_ping-wheel.key.open-settings:key.keyboard.unknown
 key_ping-wheel.key.name-labels:key.keyboard.left.alt
@@ -182,6 +183,7 @@ key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
+key_Enabled/Disabled the visualizer:key.keyboard.unknown
 key_key.weaponmaster_ydm.opengui:key.keyboard.keypad.5
 key_zoomify.key.zoom:key.mouse.5
 key_zoomify.key.zoom.secondary:key.keyboard.f6
@@ -215,7 +217,7 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-modelPart_cape:false
+modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:false
 modelPart_right_sleeve:false

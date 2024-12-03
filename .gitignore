@@ -18,6 +18,9 @@ ModTranslations/
 # options.txt
 profile.json
 servers.*dat*
+observable_announce
+config/observable.json
+
 config/roughlyenoughitems/*
 config/fabric/indigo-renderer.properties
 config/indium-renderer.properties
